@@ -1,0 +1,71 @@
+Exercício 1
+A genealogia das linguagens não é uma escada de progresso. Explique essa afirmação e apresente dois fatores históricos que fazem uma linguagem influenciar outra sem necessariamente substituí-la.
+
+A genealogia das linguagens não pode ser vista como uma sequência em que uma linguagem nova sempre substitui a antiga. Muitas delas continuam sendo usadas mesmo depois do surgimento de outras mais modernas, principalmente quando ainda funcionam bem em determinada área.
+
+Dois fatores ajudam a explicar isso. O primeiro é o domínio de aplicação, como acontece com Fortran, que continuou sendo muito utilizado em computação científica. O segundo é a quantidade de pessoas, programas e ferramentas que já dependem daquela linguagem. Por isso, uma linguagem pode ser muito importante historicamente sem ser necessariamente a mais popular.
+
+Exercício 2
+Plankalkül não foi implementada em sua época. Ainda assim, por que ela é relevante para a história das linguagens? Cite três recursos antecipados por seu projeto e explique o valor de um deles.
+
+Plankalkül é importante porque, mesmo não tendo sido implementada na época em que foi criada, já apresentava várias ideias que apareceriam depois em outras linguagens. Entre elas estão estruturas de dados, vetores, procedimentos e formas de controlar a execução dos programas.
+
+Uma das ideias mais importantes era a possibilidade de trabalhar com dados mais organizados e complexos. Isso mostra como a linguagem estava à frente do seu tempo. Por esse motivo, sua importância está principalmente nas ideias que antecipou para o futuro das linguagens.
+
+Exercício 4
+Explique por que o projeto Fortran precisou convencer programadores de que código traduzido podia competir com código de máquina escrito à mão. Relacione desempenho, custo de programação e adoção.
+
+Fortran precisou convencer os programadores de que um compilador poderia gerar código com um desempenho próximo ao código escrito diretamente em linguagem de máquina. Naquela época, os computadores eram caros e cada ganho de desempenho fazia diferença.
+
+Por outro lado, escrever tudo em linguagem de máquina era muito mais trabalhoso. Fortran ajudava a reduzir o tempo necessário para desenvolver programas, sem perder tanto desempenho. Esse equilíbrio entre produtividade e eficiência foi um dos principais motivos para a linguagem ser adotada.
+
+Exercício 5
+Lisp surgiu em um contexto diferente de Fortran. Compare os domínios, a representação de dados e o estilo de computação favorecido pelas duas linguagens.
+
+Fortran e Lisp surgiram para resolver problemas bem diferentes. Fortran foi criada principalmente para aplicações científicas e cálculos numéricos, trabalhando bastante com números, vetores e matrizes. Por isso, segue um estilo mais imperativo.
+
+Lisp surgiu em um contexto ligado à inteligência artificial e ao processamento simbólico. Ela trabalha muito com listas e favorece o uso de funções e recursão. Então, as diferenças entre as duas linguagens fazem sentido quando observamos os problemas que cada uma queria resolver.
+
+Exercício 10
+Lisp surgiu em um contexto diferente de Fortran. Compare os domínios, a representação de dados e o estilo de computação favorecido pelas duas linguagens.
+
+Ortogonalidade significa que os recursos de uma linguagem podem ser combinados de forma regular e consistente, sem que existam muitas exceções às regras.
+
+Mas ALGOL 68 mostrou que uma linguagem regular não é necessariamente simples. Ela permitia muitas combinações entre seus recursos, o que também podia tornar a linguagem mais difícil de aprender. Portanto, ter muita ortogonalidade não significa automaticamente que uma linguagem será fácil de usar.
+
+Exercício 11
+Construa uma cadeia de influência que passe por ALGOL, Pascal e C. Depois contraste essa linhagem imperativa com a proposta declarativa de Prolog.
+
+Uma sequência importante de influência pode ser observada entre ALGOL, Pascal e C. ALGOL influenciou bastante outras linguagens, principalmente na forma de organizar programas e utilizar estruturas de controle.
+
+Pascal continuou essa linha, sendo muito associada ao ensino e à programação estruturada. C também recebeu influência dessa tradição, mas acabou sendo mais voltada para programação de sistemas e eficiência. Prolog segue uma ideia diferente: em vez de mostrar passo a passo como resolver um problema, trabalha com fatos e regras para representar relações.
+
+Exercício 13
+Ada resultou de requisitos e projeto em grande escala. Analise como confiabilidade, tipos, pacotes e concorrência se relacionam ao domínio de sistemas críticos.
+
+Ada foi criada pensando em sistemas grandes e importantes, nos quais um erro poderia causar problemas sérios. Por isso, a confiabilidade foi uma preocupação central no projeto da linguagem.
+
+Os tipos ajudam a evitar alguns erros, os pacotes facilitam a organização de programas grandes e a concorrência permite trabalhar com várias atividades acontecendo ao mesmo tempo. Esses recursos ajudam a tornar sistemas complexos mais organizados e confiáveis.
+
+Exercício 14
+Compare o papel dos objetos em Smalltalk, C++ e Java. Inclua na resposta o compromisso de C++ com C e a estratégia de portabilidade de Java.
+
+Smalltalk, C++ e Java usam orientação a objetos, mas cada uma fez isso de uma forma diferente. Em Smalltalk, os objetos são praticamente o centro de toda a linguagem e a comunicação entre eles acontece por meio de mensagens.
+
+C++ adicionou recursos de orientação a objetos, mas manteve uma forte relação com C e com a programação de sistemas. Java também usa objetos como base, mas ficou conhecida principalmente pela portabilidade, permitindo que um programa pudesse funcionar em diferentes plataformas usando uma máquina virtual.
+
+Exercício 16
+Compare Perl, JavaScript, PHP, Python, Ruby e Lua usando três eixos: domínio inicial, estruturas de dados e estratégia de implementação. Evite concluir que todas são iguais por serem chamadas de scripting.
+
+Perl, JavaScript, PHP, Python, Ruby e Lua costumam ser chamadas de linguagens de scripting, mas isso não significa que todas sejam iguais. Cada uma surgiu com objetivos diferentes.
+
+Perl ficou muito ligada ao processamento de texto, JavaScript à interação em páginas Web e PHP ao desenvolvimento de aplicações Web. Python se tornou uma linguagem de propósito geral, Ruby deu bastante importância à orientação a objetos e Lua foi criada para ser pequena e fácil de usar dentro de outros sistemas. Por isso, colocar todas simplesmente na mesma categoria acaba escondendo várias diferenças importantes.
+
+Exercício 20
+Estudo de caso: uma equipe precisa escolher tecnologias para cálculo científico, regras declarativas, aplicação Web interativa e firmware restrito. Proponha famílias de linguagens, justifique historicamente cada escolha e explicite dois trade-offs.
+
+Para cálculos científicos, uma boa escolha seria Fortran, principalmente por sua história ligada a cálculos numéricos e desempenho. Para trabalhar com regras e relações declarativas, Prolog seria mais adequado, pois utiliza fatos, regras e consultas.
+
+Para uma aplicação Web interativa, JavaScript seria uma escolha natural por sua ligação com os navegadores. Já para um firmware com recursos limitados, C seria adequada por oferecer mais controle sobre os recursos e maior proximidade com o hardware.
+
+Dois pontos importantes nessa escolha são o equilíbrio entre abstração e controle, e entre especialização e flexibilidade. Linguagens de alto nível podem facilitar o desenvolvimento, enquanto C oferece mais controle. Da mesma forma, uma linguagem especializada pode ser excelente para um problema específico, mas não necessariamente para todos os tipos de aplicação.
